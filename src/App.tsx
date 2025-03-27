@@ -1,14 +1,4 @@
 import React from "react";
-import {
-  GraduationCap,
-  Globe2,
-  Award,
-  Users,
-  ChevronRight,
-  Phone,
-  Mail,
-  MapPin,
-} from "lucide-react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SuccessStories from "./components/SuccessStories";
@@ -17,6 +7,7 @@ import Services from "./components/Services";
 import Countries from "./components/Countries";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
+import FloatingButtons from "./components/FloatingButtons";
 
 function App() {
   return (
@@ -29,6 +20,7 @@ function App() {
       <Countries />
       <CallToAction />
       <Footer />
+      <FloatingButtons />
     </div>
   );
 }
