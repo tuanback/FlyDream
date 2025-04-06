@@ -2,15 +2,15 @@
 export const images = {
   // Hero section
   hero: {
-    slide1: "/src/resources/images/slide/slide-1.jpg",
-    slide2: "/src/resources/images/slide/slide-2.jpg",
-    slide3: "/src/resources/images/slide/slide-3.jpg",
+    slide1: "/images/slide/slide-1.jpg",
+    slide2: "/images/slide/slide-2.jpg",
+    slide3: "/images/slide/slide-3.jpg",
   },
   // Success stories
   successStories: {
-    story1: "/src/resources/images/success-story/success-story-1.jpg",
-    story2: "/src/resources/images/success-story/success-story-2.jpg",
-    story3: "/src/resources/images/success-story/success-story-3.jpg",
+    story1: "/images/success-story/success-story-1.jpg",
+    story2: "/images/success-story/success-story-2.jpg",
+    story3: "/images/success-story/success-story-3.jpg",
   },
   // Countries
   countries: {
@@ -28,9 +28,9 @@ export const images = {
   },
   // Icons
   icons: {
-    zalo: "/src/resources/images/icon-zalo.svg",
-    messenger: "/src/resources/images/icon-messenger.svg",
-    phone: "/src/resources/images/icon-call.svg",
+    zalo: "/images/icons/icon-zalo.svg",
+    messenger: "/images/icons/icon-messenger.svg",
+    phone: "/images/icons/icon-call.svg",
   },
 };
 

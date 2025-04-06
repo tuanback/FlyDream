@@ -285,6 +285,12 @@ i18n
                 title: "Học tại các trường đại học hàng đầu",
                 description:
                   "Tiếp cận giáo dục đẳng cấp thế giới tại các tổ chức danh tiếng. Hãy để chúng tôi hướng dẫn bạn qua quá trình nhập học.",
+                image: images.hero.slide1,
+              },
+              {
+                title: "Học tại các trường đại học hàng đầu",
+                description:
+                  "Tiếp cận giáo dục đẳng cấp thế giới tại các tổ chức danh tiếng. Hãy để chúng tôi hướng dẫn bạn qua quá trình nhập học.",
                 image: images.hero.slide2,
               },
               {
