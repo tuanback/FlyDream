@@ -288,12 +288,6 @@ i18n
                 image: images.hero.slide1,
               },
               {
-                title: "Học tại các trường đại học hàng đầu",
-                description:
-                  "Tiếp cận giáo dục đẳng cấp thế giới tại các tổ chức danh tiếng. Hãy để chúng tôi hướng dẫn bạn qua quá trình nhập học.",
-                image: images.hero.slide2,
-              },
-              {
                 title: "Thành công của bạn là ưu tiên của chúng tôi",
                 description:
                   "Tham gia cùng hàng ngàn sinh viên thành công đã đạt được ước mơ của họ với sự hỗ trợ của chúng tôi.",

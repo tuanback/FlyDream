@@ -6,7 +6,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
-  base: "/", // Changed from '/FlyDream/' to '/' for custom domain
+  base: "/FlyDream/", // Change back to repo name for GitHub Pages
   build: {
     assetsDir: "assets",
     copyPublicDir: true,
