@@ -298,7 +298,7 @@ i18n
             learnMore: "Tìm hiểu thêm",
           },
           stats: {
-            studentsPlaced: "Học sinh đã được sắp xếp",
+            studentsPlaced: "Học sinh đã được nhận",
             partnerUniversities: "Trường đại học đối tác",
             countries: "Quốc gia",
             yearsExperience: "Năm kinh nghiệm",
