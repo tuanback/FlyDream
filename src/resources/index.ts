@@ -8,9 +8,9 @@ export const images = {
   },
   // Success stories
   successStories: {
-    story1: "/images/success-story-1.jpg",
-    story2: "/images/success-story-2.jpg",
-    story3: "/images/success-story-3.jpg",
+    story1: "/src/resources/images/success-story/success-story-1.jpg",
+    story2: "/src/resources/images/success-story/success-story-2.jpg",
+    story3: "/src/resources/images/success-story/success-story-3.jpg",
   },
   // Countries
   countries: {

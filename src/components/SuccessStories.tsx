@@ -9,6 +9,7 @@ const SuccessStories: React.FC = () => {
   const stories = t("successStories.stories", {
     returnObjects: true,
   }) as Array<{
+    image: string;
     name: string;
     institution: string;
     testimonial: string;
@@ -57,15 +58,10 @@ const SuccessStories: React.FC = () => {
                   <div className="flex flex-col md:flex-row min-h-[300px] md:h-[300px]">
                     <div className="md:w-1/2 relative group h-[200px] md:h-full">
                       <img
-                        src={`https://api.dicebear.com/6.x/initials/svg?seed=${story.name}`}
+                        src={story.image}
                         alt={story.name}
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute inset-0 bg-mocha bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <div className="w-12 h-12 md:w-16 md:h-16 bg-ivory rounded-full flex items-center justify-center">
-                          <Play className="w-6 h-6 md:w-8 md:h-8 text-mocha ml-1" />
-                        </div>
-                      </div>
                     </div>
                     <div className="md:w-1/2 p-4 md:p-8 flex flex-col justify-center">
                       <p className="text-lg md:text-xl text-mocha-light mb-4 md:mb-6">
@@ -73,7 +69,7 @@ const SuccessStories: React.FC = () => {
                       </p>
                       <div className="flex items-center">
                         <img
-                          src={`https://api.dicebear.com/6.x/initials/svg?seed=${story.name}`}
+                          src={story.image}
                           alt={story.name}
                           className="w-10 h-10 md:w-12 md:h-12 rounded-full mr-3 md:mr-4"
                         />

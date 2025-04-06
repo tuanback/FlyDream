@@ -1,5 +1,5 @@
-import React from 'react';
-import { Users, GraduationCap, Globe2, Award } from 'lucide-react';
+import React from "react";
+import { Users, GraduationCap, Globe2, Award } from "lucide-react";
 
 const Stats = () => {
   return (

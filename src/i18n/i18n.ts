@@ -112,22 +112,25 @@ i18n
             title: "Success Stories",
             stories: [
               {
+                image: images.successStories.story1,
                 name: "Vaibhavee Modi",
                 institution: "Confederation College, Canada",
                 testimonial:
-                  "Choosing EduConsult was a game changer when I decided to study abroad. The staff and my counselor were super friendly and every step became seamless.",
+                  "Choosing FlyDream was a game changer when I decided to study abroad. The staff and my counselor were super friendly and every step became seamless.",
               },
               {
+                image: images.successStories.story2,
                 name: "Sarah Thompson",
                 institution: "University of Melbourne, Australia",
                 testimonial:
                   "The guidance I received helped me secure a scholarship at my dream university. Their test preparation programs were excellent!",
               },
               {
+                image: images.successStories.story3,
                 name: "James Chen",
                 institution: "University of Toronto, Canada",
                 testimonial:
-                  "From visa application to accommodation arrangements, EduConsult made my study abroad journey smooth and stress-free.",
+                  "From visa application to accommodation arrangements, FlyDream made my study abroad journey smooth and stress-free.",
               },
             ],
           },
@@ -233,22 +236,25 @@ i18n
             title: "성공 사례",
             stories: [
               {
+                image: images.successStories.story1,
                 name: "배현정",
                 institution: "컨페더레이션 대학, 캐나다",
                 testimonial:
-                  "유학을 결정했을 때 EduConsult를 선택한 것은 게임체인저였습니다. 직원들과 상담사가 매우 친절했고 모든 단계가 순조롭게 진행되었습니다.",
+                  "유학을 결정했을 때 FlyDream를 선택한 것은 게임체인저였습니다. 직원들과 상담사가 매우 친절했고 모든 단계가 순조롭게 진행되었습니다.",
               },
               {
+                image: images.successStories.story2,
                 name: "김지원",
                 institution: "멜버른 대학교, 호주",
                 testimonial:
                   "받은 지도 덕분에 꿈꾸던 대학에서 장학금을 받을 수 있었습니다. 시험 준비 프로그램도 훌륭했어요!",
               },
               {
+                image: images.successStories.story3,
                 name: "이진호",
                 institution: "토론토 대학교, 캐나다",
                 testimonial:
-                  "비자 신청부터 숙소 준비까지, EduConsult는 제 유학 여정을 순조롭고 스트레스 없게 만들어주었습니다.",
+                  "비자 신청부터 숙소 준비까지, FlyDream는 제 유학 여정을 순조롭고 스트레스 없게 만들어주었습니다.",
               },
             ],
           },
@@ -358,22 +364,25 @@ i18n
             title: "Câu chuyện thành công",
             stories: [
               {
+                image: images.successStories.story1,
                 name: "Nguyễn Thị Minh",
                 institution: "Đại học Confederation, Canada",
                 testimonial:
-                  "Chọn EduConsult là bước ngoặt khi tôi quyết định du học. Nhân viên và cố vấn rất thân thiện và mọi bước đều trở nên suôn sẻ.",
+                  "Chọn FlyDream là bước ngoặt khi tôi quyết định du học. Nhân viên và cố vấn rất thân thiện và mọi bước đều trở nên suôn sẻ.",
               },
               {
+                image: images.successStories.story2,
                 name: "Trần Văn Nam",
                 institution: "Đại học Melbourne, Úc",
                 testimonial:
                   "Sự hướng dẫn tôi nhận được đã giúp tôi đạt học bổng tại trường đại học mơ ước. Chương trình luyện thi của họ thật xuất sắc!",
               },
               {
+                image: images.successStories.story3,
                 name: "Lê Hoàng Long",
                 institution: "Đại học Toronto, Canada",
                 testimonial:
-                  "Từ đơn xin visa đến sắp xếp chỗ ở, EduConsult đã giúp hành trình du học của tôi suôn sẻ và không có áp lực.",
+                  "Từ đơn xin visa đến sắp xếp chỗ ở, FlyDream đã giúp hành trình du học của tôi suôn sẻ và không có áp lực.",
               },
             ],
           },
