@@ -30,16 +30,16 @@ const Navbar = () => {
               className="bg-mocha text-ivory border-none cursor-pointer mr-4"
               defaultValue={i18n.language}
             >
-              <option value="en">English</option>
+              {/* <option value="en">English</option> */}
               <option value="ko">한국어</option>
               <option value="vi">Tiếng Việt</option>
             </select>
-            <a href="#" className="hover:text-gold">
+            {/* <a href="#" className="hover:text-gold">
               {t("login.student")}
             </a>
             <a href="#" className="hover:text-gold">
               {t("login.partner")}
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

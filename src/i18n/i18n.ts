@@ -19,8 +19,8 @@ i18n
             getStarted: "Get Started",
           },
           contact: {
-            phone: "+82 10-1234-5678",
-            email: "info@flydream.com",
+            phone: "0971 199 368",
+            email: "flydream.company@gmail.com",
           },
           login: {
             student: "Student Login",
@@ -82,7 +82,10 @@ i18n
             quickLinks: "Quick Links",
             studyDestinations: "Study Destinations",
             contactUs: "Contact Us",
-            address: "123 Business Street, City, Country",
+            phone: "0971 199 368",
+            email: "flydream.company@gmail.com",
+            address:
+              "B01.L07 An Vượng Villa, khu đô thị mới Dương Nội, quận Hà Đông, Hà Nội",
             rights: "All rights reserved.",
             aboutUs: "About Us",
             services: "Services",
@@ -130,8 +133,8 @@ i18n
             getStarted: "시작하기",
           },
           contact: {
-            phone: "+82 10-1234-5678",
-            email: "info@flydream.com",
+            phone: "0971 199 368",
+            email: "flydream.company@gmail.com",
           },
           login: {
             student: "학생 로그인",
@@ -189,7 +192,10 @@ i18n
             quickLinks: "빠른 링크",
             studyDestinations: "유학 목적지",
             contactUs: "연락처",
-            address: "123 비즈니스 거리, 도시, 국가",
+            phone: "0971 199 368",
+            email: "flydream.company@gmail.com",
+            address:
+              "B01.L07 An Vượng Villa, khu đô thị mới Dương Nội, quận Hà Đông, Hà Nội",
             rights: "모든 권리 보유",
             usa: "미국",
             uk: "영국",
@@ -237,8 +243,8 @@ i18n
             getStarted: "Bắt đầu",
           },
           contact: {
-            phone: "+82 10-1234-5678",
-            email: "info@flydream.com",
+            phone: "0971 199 368",
+            email: "flydream.company@gmail.com",
           },
           login: {
             student: "Đăng nhập học sinh",
@@ -300,7 +306,10 @@ i18n
             quickLinks: "Liên kết nhanh",
             studyDestinations: "Điểm đến du học",
             contactUs: "Liên hệ",
-            address: "123 Đường Business, Thành phố, Quốc gia",
+            phone: "0971 199 368",
+            email: "flydream.company@gmail.com",
+            address:
+              "B01.L07 An Vượng Villa, khu đô thị mới Dương Nội, quận Hà Đông, Hà Nội",
             rights: "Đã đăng ký bản quyền",
             usa: "Hoa Kỳ",
             uk: "Anh",
