@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "phone": "+1 234 567 8900",
+    "email": "contact@example.com"
+  },
+  "login": {
+    "student": "학생 로그인",
+    "partner": "파트너 로그인"
+  },
+  "nav": {
+    "brand": "에듀컨설트",
+    "home": "홈",
+    "about": "회사 소개",
+    "services": "서비스",
+    "countries": "국가",
+    "contact": "연락처",
+    "getStarted": "시작하기"
+  }
+}

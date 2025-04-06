@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
-import { Menu, X, Phone, Mail } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X, Phone, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <>
@@ -11,16 +17,29 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <div className="flex items-center">
               <Phone size={16} className="mr-2" />
-              <span>+1 234 567 8900</span>
+              <span>{t("contact.phone")}</span>
             </div>
             <div className="hidden md:flex items-center">
               <Mail size={16} className="mr-2" />
-              <span>contact@example.com</span>
+              <span>{t("contact.email")}</span>
             </div>
           </div>
-          <div className="hidden md:flex space-x-4">
-            <a href="#" className="hover:text-gold">Student Login</a>
-            <a href="#" className="hover:text-gold">Partner Login</a>
+          <div className="hidden md:flex items-center space-x-4">
+            <select
+              onChange={(e) => changeLanguage(e.target.value)}
+              className="bg-mocha text-ivory border-none cursor-pointer mr-4"
+              defaultValue={i18n.language}
+            >
+              <option value="en">English</option>
+              <option value="ko">한국어</option>
+              <option value="vi">Tiếng Việt</option>
+            </select>
+            <a href="#" className="hover:text-gold">
+              {t("login.student")}
+            </a>
+            <a href="#" className="hover:text-gold">
+              {t("login.partner")}
+            </a>
           </div>
         </div>
       </div>
@@ -28,16 +47,28 @@ const Navbar = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
-              <a href="/" className="text-2xl font-bold text-mocha">EduConsult</a>
+              <a href="/" className="text-2xl font-bold text-mocha">
+                {t("nav.brand")}
+              </a>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-mocha-light hover:text-mocha">Home</a>
-              <a href="#" className="text-mocha-light hover:text-mocha">About Us</a>
-              <a href="#" className="text-mocha-light hover:text-mocha">Services</a>
-              <a href="#" className="text-mocha-light hover:text-mocha">Countries</a>
-              <a href="#" className="text-mocha-light hover:text-mocha">Contact</a>
+              <a href="#" className="text-mocha-light hover:text-mocha">
+                {t("nav.home")}
+              </a>
+              <a href="#" className="text-mocha-light hover:text-mocha">
+                {t("nav.about")}
+              </a>
+              <a href="#" className="text-mocha-light hover:text-mocha">
+                {t("nav.services")}
+              </a>
+              <a href="#" className="text-mocha-light hover:text-mocha">
+                {t("nav.countries")}
+              </a>
+              <a href="#" className="text-mocha-light hover:text-mocha">
+                {t("nav.contact")}
+              </a>
               <button className="bg-mocha text-ivory px-6 py-2 rounded-md hover:bg-mocha-light">
-                Get Started
+                {t("nav.getStarted")}
               </button>
             </div>
             <div className="md:hidden">
@@ -50,11 +81,36 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden bg-ivory">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href="#" className="block px-3 py-2 text-mocha-light hover:text-mocha">Home</a>
-              <a href="#" className="block px-3 py-2 text-mocha-light hover:text-mocha">About Us</a>
-              <a href="#" className="block px-3 py-2 text-mocha-light hover:text-mocha">Services</a>
-              <a href="#" className="block px-3 py-2 text-mocha-light hover:text-mocha">Countries</a>
-              <a href="#" className="block px-3 py-2 text-mocha-light hover:text-mocha">Contact</a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-mocha-light hover:text-mocha"
+              >
+                {t("nav.home")}
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-mocha-light hover:text-mocha"
+              >
+                {t("nav.about")}
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-mocha-light hover:text-mocha"
+              >
+                {t("nav.services")}
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-mocha-light hover:text-mocha"
+              >
+                {t("nav.countries")}
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 text-mocha-light hover:text-mocha"
+              >
+                {t("nav.contact")}
+              </a>
             </div>
           </div>
         )}

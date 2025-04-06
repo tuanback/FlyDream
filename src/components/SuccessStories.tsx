@@ -1,46 +1,18 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, Play } from "lucide-react";
-
-interface Story {
-  id: number;
-  name: string;
-  institution: string;
-  image: string;
-  testimonial: string;
-}
+import { useTranslation } from "react-i18next";
 
 const SuccessStories: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
+  const { t } = useTranslation();
 
-  const stories: Story[] = [
-    {
-      id: 1,
-      name: "Vaibhavee Modi",
-      institution: "Confederation College, Canada",
-      image:
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      testimonial:
-        "Choosing EduConsult was a game changer when I decided to study abroad. The staff and my counselor were super friendly and every step became seamless.",
-    },
-    {
-      id: 2,
-      name: "Sarah Thompson",
-      institution: "University of Melbourne, Australia",
-      image:
-        "https://images.unsplash.com/photo-1517256673644-36ad11246d21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      testimonial:
-        "The guidance I received helped me secure a scholarship at my dream university. Their test preparation programs were excellent!",
-    },
-    {
-      id: 3,
-      name: "James Chen",
-      institution: "University of Toronto, Canada",
-      image:
-        "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      testimonial:
-        "From visa application to accommodation arrangements, EduConsult made my study abroad journey smooth and stress-free.",
-    },
-  ];
+  const stories = t("successStories.stories", {
+    returnObjects: true,
+  }) as Array<{
+    name: string;
+    institution: string;
+    testimonial: string;
+  }>;
 
   const nextSlide = (): void => {
     setCurrentSlide((prev) => (prev + 1) % stories.length);
@@ -55,7 +27,7 @@ const SuccessStories: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-4xl font-bold text-mocha relative">
-            Success Stories
+            {t("successStories.title")}
             <span className="absolute -bottom-2 left-0 w-24 h-1 bg-gold"></span>
           </h2>
           <div className="flex space-x-2">
@@ -79,13 +51,13 @@ const SuccessStories: React.FC = () => {
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
           >
-            {stories.map((story) => (
-              <div key={story.id} className="w-full flex-shrink-0 px-4">
+            {stories.map((story, index) => (
+              <div key={index} className="w-full flex-shrink-0 px-4">
                 <div className="bg-ivory rounded-2xl overflow-hidden shadow-xl">
                   <div className="flex flex-col md:flex-row min-h-[300px] md:h-[300px]">
                     <div className="md:w-1/2 relative group h-[200px] md:h-full">
                       <img
-                        src={story.image}
+                        src={`https://api.dicebear.com/6.x/initials/svg?seed=${story.name}`}
                         alt={story.name}
                         className="w-full h-full object-cover"
                       />

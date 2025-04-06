@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "phone": "+1 234 567 8900",
+    "email": "contact@example.com"
+  },
+  "login": {
+    "student": "Sinh viên đăng nhập",
+    "partner": "Đối tác đăng nhập"
+  },
+  "nav": {
+    "brand": "EduConsult",
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "services": "Dịch vụ",
+    "countries": "Quốc gia",
+    "contact": "Liên hệ",
+    "getStarted": "Bắt đầu"
+  }
+}

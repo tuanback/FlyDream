@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "phone": "+1 234 567 8900",
+    "email": "contact@example.com"
+  },
+  "login": {
+    "student": "Student Login",
+    "partner": "Partner Login"
+  },
+  "nav": {
+    "brand": "EduConsult",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "countries": "Countries",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  }
+}

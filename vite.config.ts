@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
-  base: "/FlyDream/", // This will be your repository name
+  base: "/", // Changed from '/FlyDream/' to '/' for custom domain
 });
