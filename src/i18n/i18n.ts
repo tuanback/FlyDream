@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
+import { images } from "../resources";
 
 i18n
   .use(LanguageDetector)
@@ -27,9 +28,20 @@ i18n
             partner: "Partner Login",
           },
           hero: {
-            title: "Your Gateway to Global Education",
-            description:
-              "Expert guidance for international education opportunities. Transform your future with our personalized consulting services.",
+            slides: [
+              {
+                title: "Study in Top Universities",
+                description:
+                  "Access world-class education at prestigious institutions. Let us guide you through the admission process.",
+                image: images.hero.slide2,
+              },
+              {
+                title: "Your Success is Our Priority",
+                description:
+                  "Join thousands of successful students who achieved their dreams with our support.",
+                image: images.hero.slide3,
+              },
+            ],
             getStarted: "Get Started",
             learnMore: "Learn More",
           },
@@ -141,9 +153,20 @@ i18n
             partner: "파트너 로그인",
           },
           hero: {
-            title: "글로벌 교육으로 가는 관문",
-            description:
-              "국제 교육 기회를 위한 전문가 가이드. 맞춤형 컨설팅 서비스로 미래를 변화시키세요.",
+            slides: [
+              {
+                title: "상위 대학에서 공부하기",
+                description:
+                  "명문 기관에서 세계적 수준의 교육을 받으세요. 입학 과정을 안내해 드립니다.",
+                image: images.hero.slide2,
+              },
+              {
+                title: "당신의 성공이 우리의 우선입니다",
+                description:
+                  "우리의 지원으로 꿈을 이룬 수천 명의 성공적인 학생들과 함께하세요.",
+                image: images.hero.slide3,
+              },
+            ],
             getStarted: "시작하기",
             learnMore: "더 알아보기",
           },
@@ -251,9 +274,20 @@ i18n
             partner: "Đăng nhập đối tác",
           },
           hero: {
-            title: "Cánh cửa đến Giáo dục Toàn cầu",
-            description:
-              "Hướng dẫn chuyên nghiệp cho cơ hội giáo dục quốc tế. Thay đổi tương lai với dịch vụ tư vấn cá nhân hóa.",
+            slides: [
+              {
+                title: "Học tại các trường đại học hàng đầu",
+                description:
+                  "Tiếp cận giáo dục đẳng cấp thế giới tại các tổ chức danh tiếng. Hãy để chúng tôi hướng dẫn bạn qua quá trình nhập học.",
+                image: images.hero.slide2,
+              },
+              {
+                title: "Thành công của bạn là ưu tiên của chúng tôi",
+                description:
+                  "Tham gia cùng hàng ngàn sinh viên thành công đã đạt được ước mơ của họ với sự hỗ trợ của chúng tôi.",
+                image: images.hero.slide3,
+              },
+            ],
             getStarted: "Bắt đầu",
             learnMore: "Tìm hiểu thêm",
           },

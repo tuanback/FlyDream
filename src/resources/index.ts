@@ -2,8 +2,9 @@
 export const images = {
   // Hero section
   hero: {
-    background: "/images/hero-bg.jpg",
-    student: "/images/hero-student.jpg",
+    slide1: "/src/resources/images/slide/slide-1.jpg",
+    slide2: "/src/resources/images/slide/slide-2.jpg",
+    slide3: "/src/resources/images/slide/slide-3.jpg",
   },
   // Success stories
   successStories: {
@@ -36,8 +37,8 @@ export const images = {
 // Constants
 export const constants = {
   contact: {
-    phone: "09688686868",
-    zalo: "09688686868",
+    phone: "0971199368",
+    zalo: "0971199368",
     messenger: "61573963165509",
     email: "contact@flydream.com",
     address: "123 Education Street, City, Country",
