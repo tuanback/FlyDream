@@ -62,14 +62,16 @@ const Navbar = () => {
                 {t("nav.services")}
               </a>
               <a href="#" className="text-mocha-light hover:text-mocha">
-                {t("nav.countries")}
-              </a>
-              <a href="#" className="text-mocha-light hover:text-mocha">
                 {t("nav.contact")}
               </a>
-              <button className="bg-mocha text-ivory px-6 py-2 rounded-md hover:bg-mocha-light">
+              <a
+                href={`https://zalo.me/0971199368`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-mocha text-ivory px-6 py-2 rounded-md hover:bg-mocha-light flex items-center justify-center"
+              >
                 {t("nav.getStarted")}
-              </button>
+              </a>
             </div>
             <div className="md:hidden">
               <button onClick={() => setIsOpen(!isOpen)} className="text-mocha">

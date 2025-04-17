@@ -45,9 +45,14 @@ const Hero = () => {
               <h1 className="text-5xl font-bold mb-6">{slide.title}</h1>
               <p className="text-xl mb-8">{slide.description}</p>
               <div className="flex space-x-4">
-                <button className="bg-gold text-mocha px-8 py-3 rounded-md font-semibold hover:bg-ivory flex items-center">
+                <a
+                  href={`https://zalo.me/0971199368`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gold text-mocha px-8 py-3 rounded-md font-semibold hover:bg-ivory flex items-center"
+                >
                   {t("hero.getStarted")} <ChevronRight className="ml-2" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
