@@ -356,6 +356,7 @@ i18n
             uk: "Anh",
             canada: "Canada",
             australia: "Úc",
+            korea: "Hàn Quốc",
             aboutUs: "Giới thiệu",
             services: "Dịch vụ",
             countries: "Quốc gia",

@@ -69,22 +69,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-beige hover:text-gold">
-                  {t("footer.usa")}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-beige hover:text-gold">
-                  {t("footer.uk")}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-beige hover:text-gold">
-                  {t("footer.canada")}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-beige hover:text-gold">
-                  {t("footer.australia")}
+                  {t("footer.korea")}
                 </a>
               </li>
             </ul>
