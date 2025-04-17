@@ -15,10 +15,7 @@ export const images = {
   },
   // Countries
   countries: {
-    australia: `${BASE_URL}/images/countries/australia.jpg`,
-    canada: `${BASE_URL}/images/countries/canada.jpg`,
-    uk: `${BASE_URL}/images/countries/uk.jpg`,
-    usa: `${BASE_URL}/images/countries/usa.jpg`,
+    korea: `${BASE_URL}/images/countries/korea.jpg`,
   },
   // Services
   services: {

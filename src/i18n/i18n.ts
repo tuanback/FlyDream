@@ -332,7 +332,8 @@ i18n
             title: "Điểm đến du học",
             description:
               "Khám phá cơ hội giáo dục tại các điểm đến hàng đầu trên thế giới.",
-            exploreUniversities: "Khám phá các trường đại học",
+            exploreUniversities: "Khám phá các trường đại học →",
+            korea: "Hàn Quốc",
           },
           cta: {
             title: "Bạn đã sẵn sàng bắt đầu hành trình?",

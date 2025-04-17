@@ -1,29 +1,14 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { images } from "../resources";
 
 const Countries = () => {
   const { t } = useTranslation();
 
   const countries = [
     {
-      name: "USA",
-      image:
-        "https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    },
-    {
-      name: "UK",
-      image:
-        "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    },
-    {
-      name: "Canada",
-      image:
-        "https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    },
-    {
-      name: "Australia",
-      image:
-        "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      name: t("countries.korea"),
+      image: images.countries.korea,
     },
   ];
 
@@ -55,7 +40,7 @@ const Countries = () => {
                   {country.name}
                 </h3>
                 <p className="text-ivory opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  Explore universities →
+                  {t("countries.exploreUniversities")}
                 </p>
               </div>
             </div>
