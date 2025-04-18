@@ -2,6 +2,9 @@ const BASE_URL = "/FlyDream";
 
 // Images
 export const images = {
+  navbar: {
+    logo: `${BASE_URL}/images/icons/logo.svg`,
+  },
   // Hero section
   hero: {
     slide1: `${BASE_URL}/images/slide/slide-1.jpg`,

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { images } from "../resources";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,9 +48,14 @@ const Navbar = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
-              <a href="/" className="text-2xl font-bold text-mocha">
+                <a href="/" className="flex items-center text-2xl font-bold text-mocha">
+                <img
+                  src={images.navbar.logo}
+                  alt="Logo"
+                  className="h-8 w-8 mr-2"
+                />
                 {t("nav.brand")}
-              </a>
+                </a>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="text-mocha-light hover:text-mocha">
